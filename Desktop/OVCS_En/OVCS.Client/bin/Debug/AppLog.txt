@@ -1,0 +1,3 @@
+
+2016/11/28 11:56:00 : 高 －－ 未将对象引用设置到对象的实例。 [:]    在 OVCS.LoginForm.button2_Click(Object sender, EventArgs e) 位置 G:\OVCS录制\OVCS.Client\LoginForm.cs:行号 140 。错误类型:System.NullReferenceException。位置：LoginForm.button2_Click
+

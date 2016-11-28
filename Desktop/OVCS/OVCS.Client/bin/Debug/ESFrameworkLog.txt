@@ -1,0 +1,19 @@
+
+2016/11/16 22:09:24 : 普通 －－ 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex [:]    在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt64(Byte[] value, Int32 startIndex)
+   在 System.BitConverter.ToUInt64(Byte[] value, Int32 startIndex)
+   在 ESFramework.Engine.Udp.Reliable.FeedbackVacancyBody.lhPhm7acQsypb5ZFOln(Object , Int32 )
+   在 ESFramework.Engine.Udp.Reliable.FeedbackVacancyBody.Parse(Byte[] buff, Int32 offset, Int32 bodyLen)
+   在 SRIHRPk6Gs2Zr4DuS5o.uki7FZkjBMkYA4WSwQ1.YNXpWt0CWIN0v8LHYCD(Object , Int32 offset, Int32 bodyLen)
+   在 SRIHRPk6Gs2Zr4DuS5o.uki7FZkjBMkYA4WSwQ1.pZ9jUbC0W3(IPEndPoint  , Byte[]  ) 。错误类型:System.ArgumentOutOfRangeException。位置：ESFramework.Engine.Udp.Reliable.ReliableUdpEngine.udpClient_DataReceived
+
+
+2016/11/27 21:16:38 : 普通 －－ 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex [:]    在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 jriccBkwl2UkU6TIyA6.gUlmQDkPLnKSa99Zxw8.wi0ts8aeRlVe23Cj3vc(Object , Int32 )
+   在 jriccBkwl2UkU6TIyA6.gUlmQDkPLnKSa99Zxw8.cB5W2dcl75(Object  , Int32  , Int32  )
+   在 SRIHRPk6Gs2Zr4DuS5o.uki7FZkjBMkYA4WSwQ1.PllPRxnjXDmHyea1Ewy(Object , Int32  , Int32  )
+   在 SRIHRPk6Gs2Zr4DuS5o.uki7FZkjBMkYA4WSwQ1.pZ9jUbC0W3(IPEndPoint  , Byte[]  ) 。错误类型:System.ArgumentOutOfRangeException。位置：ESFramework.Engine.Udp.Reliable.ReliableUdpEngine.udpClient_DataReceived
+

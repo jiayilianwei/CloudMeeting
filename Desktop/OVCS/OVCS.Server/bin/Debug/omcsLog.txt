@@ -1,0 +1,20 @@
+
+2016/11/17 0:23:14 : 高 －－ 尝试读取或写入受保护的内存。这通常指示其他内存已损坏。 [:]    在 wcWD3haFytvT1nMbVG.cHURetwSI6YZf7kZ4a.SegNG7gul(Nrcqhl2bJ7KkAe5UQa  , Byte[]  , VideoCodecType  , Int32  , Int32  , Int32  , Int32  , AudioCodecType  , Int32  , Int32  , Int32  )
+   在 p4E0bmp0b62uFj0LfS.PdlbJwY1Knj3CGWZeT.O7k8Z4ayc(Nrcqhl2bJ7KkAe5UQa  , String  , VideoCodecType  , Int32  , Int32  , Int32  , VideoQuality  , AudioCodecType  , Int32  , Int32  , Boolean  )
+   在 Oraycn.MFile.SilenceVideoFileMaker.lE4oHfKzuM6SgNLIlMQ(Object , Nrcqhl2bJ7KkAe5UQa  , Object , VideoCodecType  , Int32  , Int32  , Int32  , VideoQuality  , AudioCodecType  , Int32  , Int32  , Boolean  )
+   在 Oraycn.MFile.SilenceVideoFileMaker.Initialize(String filePath, VideoCodecType videoCodec, Int32 videoWidth, Int32 videoHeight, Int32 videoFrameRate, VideoQuality videoQuality)
+   在 OVCS.Server.Program.ChatGroupA_SomeoneJoin(IChatUnit userData) 位置 G:\OVCS\OVCS.Server\Program.cs:行号 200
+   在 Dg4RLLdDcXI7vD3eTV.SyV4RBREMRdc60n57I.rM2kWYLUqJ(String  )
+   在 fkEXm6DwYugNbkdM6pR.SpbPafDua7mEgbbpMD8.JamP2u3s10JG9wQdoPy(Object , Object )
+   在 fkEXm6DwYugNbkdM6pR.SpbPafDua7mEgbbpMD8.e1e13xvfY1(String  , String  , ChatType  )
+   在 V3VtDdGsVaQtkjYdHmm.jxRdEJGOb5chJwmhptM.tbZy3QVFqJDlY9KlnwD(Object , Object , Object , ChatType  )
+   在 V3VtDdGsVaQtkjYdHmm.jxRdEJGOb5chJwmhptM.HGSmIZqL9Ar(String  , String  , ChatType  )
+   在 rFkFO5JM8JrkqVUSN8w.mlJ839Jx8AZB1oH8mQx.jsJr8x7EufYZ4AD7MvmG(Object , Object , Object , ChatType  )
+   在 rFkFO5JM8JrkqVUSN8w.mlJ839Jx8AZB1oH8mQx.HandleInformation(String  , Int32  , Byte[]  )
+   在 XDELuKjyr6H01U6Jh2o.tOvCKEj1VhTh8SpNcEn.YQEc297Kz0sBeGByeCoX(Object , Object , Int32  , Object )
+   在 XDELuKjyr6H01U6Jh2o.tOvCKEj1VhTh8SpNcEn.HandleInformation(String  , Int32  , Byte[]  )
+   在 BcZbWQ3pQTd0NDSyyic.rdOhd1Gzmj6CkeUZJfn.Noi0DrEhsVn81j2SU3O(Object , Object , Int32  , Object )
+   在 BcZbWQ3pQTd0NDSyyic.rdOhd1Gzmj6CkeUZJfn.ProcessMessage(AEXQjVqOhxvaDIadga  )
+   在 KaMDoD3e2WgiGpTvQuJ.E2mKnb3JSGuF1GfjwHx.KeJBBn0f2crJ9wheuyh(Object , Object )
+   在 KaMDoD3e2WgiGpTvQuJ.E2mKnb3JSGuF1GfjwHx.za6JvMsfP3(AEXQjVqOhxvaDIadga  ) 。错误类型:System.AccessViolationException。位置：OMCS.Communication.Basic.Passive.ContainerStylePassiveProcesser.HandleOneMessage - MessageType:201,UserID:_0,DestUserID:_server
+

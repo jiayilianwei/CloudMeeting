@@ -1,0 +1,10 @@
+
+2016/11/16 22:02:46 : 高 －－ Can't get the value of CurrentUserID before initialized [:]    在 zPTvElczjYBfnhpm7b7.jmrl6JcO9YjhjNWO9gC.get_CurrentUserID()
+   在 OVCS.LoginForm.Login(Boolean isVisitor) 位置 G:\OVCS\OVCS.Client\LoginForm.cs:行号 168
+   在 OVCS.LoginForm.button2_Click(Object sender, EventArgs e) 位置 G:\OVCS\OVCS.Client\LoginForm.cs:行号 130 。错误类型:System.Exception。位置：LoginForm.button2_Click登录的处理
+
+
+2016/11/16 22:02:47 : 高 －－ Can't get the value of CurrentUserID before initialized [:]    在 zPTvElczjYBfnhpm7b7.jmrl6JcO9YjhjNWO9gC.get_CurrentUserID()
+   在 OVCS.LoginForm.Login(Boolean isVisitor) 位置 G:\OVCS\OVCS.Client\LoginForm.cs:行号 168
+   在 OVCS.LoginForm.button2_Click(Object sender, EventArgs e) 位置 G:\OVCS\OVCS.Client\LoginForm.cs:行号 130 。错误类型:System.Exception。位置：LoginForm.button2_Click登录的处理
+

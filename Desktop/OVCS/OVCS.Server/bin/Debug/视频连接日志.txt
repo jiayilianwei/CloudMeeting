@@ -1,0 +1,14 @@
+2016/11/17 14:22:30
+002:DeviceInUsing
+2016/11/17 14:22:41
+003:DeviceInUsing
+2016/11/17 14:26:45
+002:DeviceInUsing
+2016/11/17 18:00:30
+001:Timeout
+2016/11/17 18:02:55
+001:CantConnectRepeatly
+2016/11/18 10:31:53
+001:Timeout
+2016/11/18 17:22:48
+002:Timeout
